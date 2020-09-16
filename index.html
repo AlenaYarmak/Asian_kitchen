@@ -311,8 +311,9 @@
             <img src="img/bookh1.png" alt="">
         </div>
         <form action="#">
-            <div class="book_inputs">
+            <div class="book_inputs flex">
                 <div class="inputs">
+                    <h4>How many people?</h4>
                     <div class="input_people input_style">
                         <select>
                             <option value="1">1 people</option>
@@ -325,19 +326,92 @@
                         <span class="custom-arrow"></span>
                     </div>
                     <div class="input_name">
+                        <h4>Name</h4>
                         <input type="text" placeholder="Full name">
                     </div>
                 </div>
                 <div class="inputs">
-
+                    <h4>When is your date?</h4>
+                    <div class="input_date">
+                        <input class="date" type="date" id="start" name="trip-start"
+                            value="2020-09-09"
+                            min="2020-09-09" max="2020-12-31">
+                    </div>
+                    <h4>Email</h4>
+                    <div class="input_email">
+                        <input type="email" id="email" name="email" placeholder="Your email adress">
+                    </div>
                 </div>
                 <div class="inputs">
-
+                    <h4>Time</h4>
+                    <div class="input_time">
+                        <input class="time" type="time" id="appt" name="appt" value="09:30"
+                        min="09:00" max="18:00" required>
+                    </div>
+                    <h4>Phone</h4>
+                    <div class="input_tel">
+                        <input type="tel" placeholder="Your phone">
+                    </div>
                 </div>
             </div>
+            <div class="input_submit">
+                <input class="submit" type="submit">
+            </div>
+
         </form>
     </section>
-    
+
+    <!-- section background -->
+
+    <section>
+        <div class="bg2">
+            <img src="img/bg2.png" alt="">
+        </div>
+    </section>    
+        
+    <section class="our_new_menu">
+        <div class="new_discover">
+            <img src="img/new_menu.png" alt="">
+        </div>
+        <div class="our_new_menu_h2">
+            <p>Our new menu</p>
+        </div>
+        <div class="menu_container flex">
+            <div class="menu_container1">
+                <div class="container_photo">
+                    <img src="img/container_photo1.png" alt="">
+                </div>
+                <div class="container_text">
+                    <p class="menu_h3 bold">Food / 16th March, 2019</p>
+                    <p class="menu_title">Lorem ipsum dolor sit</p>
+                    <p class="menu_description">Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
+                    <p class="read_more bold">READ MORE</p>
+                </div>
+            </div>
+            <div class="menu_container2">
+                <div class="container_photo">
+                    <img src="img/container_photo2.png" alt="">
+                </div>
+                <div class="container_text">
+                    <p class="menu_h3 bold">Spices / 16th March, 2019</p>
+                    <p class="menu_title">Lorem ipsum dolor sit</p>
+                    <p class="menu_description">Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
+                    <p class="read_more bold">READ MORE</p>
+                </div>
+            </div>
+            <div class="menu_container3">
+                <div class="container_photo">
+                    <img src="img/container_photo3.png" alt="">
+                </div>
+                <div class="container_text">
+                    <p class="menu_h3 bold">Chicken Curry / 16th March, 2019</p>
+                    <p class="menu_title">Lorem ipsum dolor sit</p>
+                    <p class="menu_description">Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sit</p>
+                    <p class="read_more bold">READ MORE</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </div>
 
